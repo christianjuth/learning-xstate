@@ -1,0 +1,38 @@
+{
+  "name": "next-typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watch",
+    "typescript": "tsc --noEmit",
+    "dock": "docker-compose up -d --build"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "yarn typescript && yarn test --watchAll=false --coverage"
+    }
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "9.5.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "9.1.2",
+    "@types/jest": "26.0.10",
+    "@types/node": "14.6.0",
+    "@types/react": "16.9.46",
+    "commitlint": "9.1.2",
+    "husky": "4.2.5",
+    "jest": "26.4.0",
+    "react-test-renderer": "16.13.1",
+    "typescript": "3.9.7"
+  }
+}
