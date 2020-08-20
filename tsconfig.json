@@ -8,7 +8,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -24,7 +24,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "pages/_app.js", "store/index.js", "pages/index.js", "pages/_error.tsx", "pages/[slug].js", "__tests__/Index.test.tsx", "commitlint.config.js"
+    "**/*.tsx", "src/pages/_app.js", "store/index.js", "src/pages/index.js", "src/pages/_error.tsx", "src/pages/[slug].js", "__tests__/Index.test.tsx", "commitlint.config.js"
   ]
 }
 
