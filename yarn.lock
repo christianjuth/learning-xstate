@@ -1960,6 +1960,11 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
+"@xstate/fsm@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@xstate/fsm/-/fsm-1.5.0.tgz#5b784dad7b6de554180d7769a0069abe2493e175"
+  integrity sha512-qDzQYetms294mlaEmxoON0XktqDVkk+QO4nKFa2uHp5CTvUDdRy3fH6k//Kybbiw5WUvXiOamUbN5m61q8qXZA==
+
 "@xstate/graph@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-1.1.0.tgz#827d21db610713fd9ac68fd53b8393b98481a8bf"
